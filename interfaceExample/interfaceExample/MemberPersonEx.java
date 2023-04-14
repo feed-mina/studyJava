@@ -8,6 +8,7 @@ public class MemberPersonEx {
         member.method();
         member.method1();
         
+        System.out.println(A.MAX); // 상수 접근시 인터페이스명.상수명 으로 접근한다.
         // 추상클래스는 인터페이스의 본질이 된다. 
         // 인터페이스도 일종의 조상이다. 그래서 다형성 개념이 적용된다.
         A a = new Member(); // 인터페이스 필드의 다형성이 적용된다.
